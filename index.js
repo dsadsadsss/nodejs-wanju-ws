@@ -5,7 +5,7 @@ const vmms = process.env.MPATH || 'vms';
 const vmmport = process.env.VM_PORT || '8001';
 const vpath = process.env.VPATH || 'vls';
 const vport = process.env.VL_PORT || '8002';
-const tmpargo = process.env.XIEYI || 'vls'; // 协议，支持vms,vls,xhttp
+const tmpargo = process.env.XIEYI || 'vls'; // 协议，支持vms,vls,xhttp,ech
 const subname = process.env.SUB_NAME || 'argo';
 const suburl = process.env.SUB_URL || '';
 //====哪吒参数
